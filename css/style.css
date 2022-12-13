@@ -1,0 +1,101 @@
+html{
+    background-color:rgb(253, 251, 243);
+    font-family: sans-serif;
+}
+
+body{
+    width: 1500px; margin: 0px auto;
+    
+}
+
+.header{
+    height: 120px;
+    background-color: rgb(223, 202, 176);
+    color: #542524;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.header-title{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+}
+
+.nav-list{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a:visited, nav ul li a:link , nav ul li a:active{
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+nav ul li a:hover{
+    background-color:rgb(75, 65, 65);
+    color:rgb(253, 251, 243); 
+    cursor: pointer;
+}
+
+.content-area{
+    display: flex;
+}
+.sameh1{
+    font-size: 1.5em;
+}
+article{
+    flex:2;
+    min-height: 500px;
+    padding :20px 20px 20px 20px;
+    margin: 0px auto;
+    border-left: 2px dotted #b2a497; 
+}
+
+section div:first-letter{
+    font-size: 55px;
+    font-weight: bold;
+}
+section div{
+    letter-spacing: 5px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+img{
+    width:100%;
+}
+section{
+    margin: 0px auto;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    padding :30px 20px 20px 20px;
+    margin: 0px auto;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+.fdpic{
+    width: 300px;
+}
+
+
+footer{
+    background-color:  rgb(223, 202, 176);
+    height: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}

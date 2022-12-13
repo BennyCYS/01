@@ -1,0 +1,114 @@
+html{
+    background-color:rgb(253, 251, 243);
+    font-family: sans-serif;
+}
+
+body{
+    width: 1500px; margin: 0px auto;
+}
+
+.header{
+    height: 120px;
+    background-color: rgb(223, 202, 176);
+    color: #542524;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.header-title{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+}
+
+.nav-list{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a:visited, nav ul li a:link , nav ul li a:active{
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    background-color:rgb(75, 65, 65);
+    color:rgb(253, 251, 243); 
+    cursor: pointer;
+}
+
+article{
+    flex:2;
+    min-height: 500px;
+    padding :0px;
+    margin: 0px auto;
+    border-left: 2px dotted #b2a497;border-right:2px dotted #b2a497;
+}
+section div::first-letter{
+    font-size: 55px;
+    font-weight: bold;
+}
+section div{
+    letter-spacing: 5px;
+    line-height: 30px;
+    padding: 0px 2cm;
+    font-size: 25px;
+}
+
+.mainpic{
+    width:100%;
+}
+
+.botflex{
+    display: flex;
+}
+.scdtitle{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    padding :20px 20px 20px 20px;
+    margin: 0px auto;
+
+}
+aside div li a:visited, aside div li a:link, aside div li a:active {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aside-list{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    padding :20px 20px 20px 20px;
+    margin: 0px auto;
+    cursor: pointer;
+    
+}
+
+.hotel-img{
+    width:700px; height: 400px;
+    margin-top: 0px;
+}
+
+footer{
+    background-color:  rgb(223, 202, 176);
+    height: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
